@@ -48,3 +48,23 @@ ol, ul {
 .game-info {
   margin-left: 20px;
 }
+
+.reverse-list{
+  height: fit-content;
+  display: flex;
+  flex-direction: reverse;
+}
+
+.bold-btn{
+  background-color: black;
+  color: white;
+}
+
+.red-text{
+  color: red;
+  background-color: black;
+}
+
+.back-btn{
+  margin: 5px;
+}
