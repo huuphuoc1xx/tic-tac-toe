@@ -52,7 +52,7 @@ ol, ul {
 .reverse-list{
   height: fit-content;
   display: flex;
-  flex-direction: reverse;
+  flex-direction: column-reverse;
 }
 
 .bold-btn{
