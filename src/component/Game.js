@@ -44,7 +44,10 @@ export default function Game() {
     const h = history.slice(0, step + 1);
     const current = h[h.length - 1];
     const squares = current.squares.slice();
-    calculateWinner(squares, setWinner);
+    calculateWinner(squares, (winCell,winner) => {
+      setWinner(winner);
+      setWinCell(winCell);
+    });
   };
 
   const moves = history.map((step, move) => {
